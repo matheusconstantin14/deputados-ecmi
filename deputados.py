@@ -5,5 +5,5 @@ df = pd.read_csv('deputados_2022.csv')
 st.dataframe(df)
 
 
-partido = input("Escolha o Partido: ")
+partido = st.text_input("Escolha o Partido: ")
 print("Seu partido escolhido é: " + partido)
