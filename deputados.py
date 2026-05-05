@@ -6,4 +6,4 @@ st.dataframe(df)
 
 
 partido = st.text_input("Escolha o Partido: ")
-print("Seu partido escolhido é: " + partido)
+# print("Seu partido escolhido é: " + partido)
